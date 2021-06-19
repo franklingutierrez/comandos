@@ -30,4 +30,9 @@ INCREMENT BY 1
 NOCACHE
 NOCYCLE;
 
+-- ================ VER CONTENEDORES COMO SYSDBA ============
+select con_id, name from v$containers;
+-- ================ VER PDBS COMO SYSDBA ============
+column name format a40
+select con_id, name from v$containers;
 --================= > CREANDO PDBS
