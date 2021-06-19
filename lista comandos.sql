@@ -30,4 +30,4 @@ INCREMENT BY 1
 NOCACHE
 NOCYCLE;
 
---================= > CREANDO PDB
+--================= > CREANDO PDBS
